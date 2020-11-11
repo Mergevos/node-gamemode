@@ -48,7 +48,7 @@ samp.ban
 #
 
 *.sublime-workspace
-
+*.code-workspace
 
 # JS 
 node_modules
@@ -56,3 +56,4 @@ build
 npm-debug.log
 .env
 .DS_Store
+samp-node.log
