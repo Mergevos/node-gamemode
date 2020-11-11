@@ -1,0 +1,20 @@
+{
+  "name": "open-movie",
+  "version": "1.0.0",
+  "description": "Open-Movie gamemode in js edition.",
+  "main": "index.js",
+  "scripts": {
+    "index": "index"
+  },
+  "keywords": [
+    "sa-mp",
+    "samp-node",
+    "samp-js"
+  ],
+  "author": "Mergevos",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "samp-node-lib": "^1.0.4"
+  }
+}
