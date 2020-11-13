@@ -14,7 +14,7 @@
   "author": "Mergevos",
   "license": "MIT",
   "dependencies": {
-    "mysql": "^2.18.1",
-    "samp-node-lib": "^1.0.4"
+    "dotenv": "^8.2.0",
+    "mysql": "^2.18.1"
   }
 }

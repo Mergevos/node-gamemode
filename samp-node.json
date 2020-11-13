@@ -3,6 +3,7 @@
     "enable_resources": true,
     "resources_path": "assets",
     "resources": [
-        "database"
+        "database",
+        "account"
     ]
 }
