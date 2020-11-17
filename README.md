@@ -12,7 +12,7 @@ git clone https://github.com/Mergevos/node-gamemode
 ```
 Then run:
 ```
-npm ensure
+npm install
 ```
 Then: 
 ```
