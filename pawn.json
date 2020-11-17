@@ -1,6 +1,6 @@
 {
 	"user": "Mergevos",
-	"repo": "open-movie-js",
+	"repo": "node-gamemode",
 	"entry": "gamemodes\\main.pwn",
 	"output": "gamemodes\\main.amx",
 	"dependencies": [

@@ -1,7 +1,7 @@
 {
-  "name": "open-movie",
+  "name": "node-gamemode",
   "version": "1.0.0",
-  "description": "Open-Movie gamemode in js edition.",
+  "description": "Example gamemode in js edition.",
   "main": "index.js",
   "scripts": {
     "index": "index"
@@ -14,7 +14,7 @@
   "author": "Mergevos",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
     "mariadb": "^2.5.1",
     "samp-node-lib": "^1.0.4",
