@@ -20,7 +20,7 @@ sampctl p ensure
 sampctl p build
 ```
 
-Then read how to configure gamemode.
+Then read [how to configure](https://github.com/Mergevos/node-gamemode#configuring) gamemode.
 
 ## Usage
 
