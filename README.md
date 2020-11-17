@@ -37,10 +37,13 @@ DB_PASS=''
 3. Create a new database in your phpmyadmin or whatever you use, name it same as you did in .env file.
 4. Execute the following query: 
 ```sql
-DB_HOST='127.0.0.1'
-DB_USER='root'
-DB_DATABASE='open-movie-database'
-DB_PASS=''
+CREATE TABLE IF NOT EXISTS `accounts` (
+  `account_id` int(11) NOT NULL AUTO_INCREMENT,
+  `account_name` varchar(24) DEFAULT NULL,
+  `account_email` varchar(40) DEFAULT NULL,
+  `account_password` varchar(61) DEFAULT NULL,
+  PRIMARY KEY (`account_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
 ```
 
 If you did all the tasks well, use:
