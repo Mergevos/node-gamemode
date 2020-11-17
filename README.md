@@ -1,63 +1,53 @@
 # open-movie-js
 
-[![sampctl](https://img.shields.io/badge/sampctl-open--movie--js-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/open-movie-js)
+[![Mergevos](https://img.shields.io/badge/Mergevos-node--gamemode-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/open-movie-js)
 
-<!--
-Short description of your library, why it's useful, some examples, pictures or
-videos. Link to your forum release thread too.
-
-Remember: You can use "forumfmt" to convert this readme to forum BBCode!
-
-What the sections below should be used for:
-
-`## Installation`: Leave this section un-edited unless you have some specific
-additional installation procedure.
-
-`## Testing`: Whether your library is tested with a simple `main()` and `print`,
-unit-tested, or demonstrated via prompting the player to connect, you should
-include some basic information for users to try out your code in some way.
-
-And finally, maintaining your version number`:
-
-* Follow [Semantic Versioning](https://semver.org/)
-* When you release a new version, update `VERSION` and `git tag` it
-* Versioning is important for sampctl to use the version control features
-
-Happy Pawning!
--->
+Example gamemode written in NodeJS for SA-MP, soon open.mp.
 
 ## Installation
 
-Simply install to your project:
-
-```bash
-sampctl package install Mergevos/open-movie-js
+Clone the repo.
+```git
+git clone https://github.com/Mergevos/node-gamemode
+```
+Then run:
+```
+npm ensure
+```
+Then: 
+```
+sampctl p ensure
+sampctl p build
 ```
 
-Include in your code and begin using the library:
-
-```pawn
-#include <open-movie-js>
-```
+Then read how to configure gamemode.
 
 ## Usage
 
-<!--
-Write your code documentation or examples here. If your library is documented in
-the source code, direct users there. If not, list your API and describe it well
-in this section. If your library is passive and has no API, simply omit this
-section.
--->
+### Configuring
 
-## Testing
-
-<!--
-Depending on whether your package is tested via in-game "demo tests" or
-y_testing unit-tests, you should indicate to readers what to expect below here.
--->
-
-To test, simply run the package:
-
-```bash
-sampctl package run
+1. Create a new .env file in root folder. Name it .env
+2. Put all your connection details into the file. Example: 
+```shell
+DB_HOST='127.0.0.1'
+DB_USER='root'
+DB_DATABASE='open-movie-database'
+DB_PASS=''
 ```
+3. Create a new database in your phpmyadmin or whatever you use, name it same as you did in .env file.
+4. Execute the following query: 
+```sql
+DB_HOST='127.0.0.1'
+DB_USER='root'
+DB_DATABASE='open-movie-database'
+DB_PASS=''
+```
+
+If you did all the tasks well, use:
+```
+sampctl p run
+```
+
+## Keep in mind
+
+I'm new to NodeJS, feel free to correct my code and give me suggestions. 
